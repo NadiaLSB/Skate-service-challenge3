@@ -5,6 +5,11 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.persistence.*;
 import java.io.Serializable;
 
+/*
+ *
+ * @author NadiaS
+ * @version 11.0.12
+ */
 @Entity
 @Table(name = "message")
 public class entityMessage implements Serializable {
@@ -19,7 +24,7 @@ public class entityMessage implements Serializable {
     private entitySkate skate;
 
     @ManyToOne
-    @JoinColumn(name = "clientId")
+    @JoinColumn(name = "idClient")
     @JsonIgnoreProperties({"messages", "reservations", "client"})
     private entityClient client;
 

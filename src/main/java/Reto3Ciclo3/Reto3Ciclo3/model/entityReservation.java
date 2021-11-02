@@ -6,6 +6,11 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
+/*
+ *
+ * @author NadiaS
+ * @version 11.0.12
+ */
 @Entity
 @Table(name = "reservation")
 public class entityReservation implements Serializable {

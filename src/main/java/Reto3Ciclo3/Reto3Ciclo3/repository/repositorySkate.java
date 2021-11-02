@@ -8,6 +8,11 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
+/*
+ *
+ * @author NadiaS
+ * @version 11.0.12
+ */
 @Repository
 public class repositorySkate {
 

@@ -8,6 +8,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/*
+ *
+ * @author NadiaS
+ * @version 11.0.12
+ */
 @Service
 public class serviceSkate {
     @Autowired
